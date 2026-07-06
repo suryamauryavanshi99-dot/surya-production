@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surya Production</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#111827;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+.nav-btns button{
+padding:10px 20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+margin-left:10px;
+font-weight:bold;
+}
+
+.login{
+background:white;
+}
+
+.signup{
+background:#38bdf8;
+color:white;
+}
+
+.hero{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:50px;
+padding:80px 8%;
+flex-wrap:wrap;
+}
+
+.text{
+max-width:500px;
+}
+
+.text h1{
+font-size:55px;
+margin-bottom:20px;
+color:#38bdf8;
+}
+
+.text p{
+font-size:18px;
+line-height:1.7;
+margin-bottom:25px;
+}
+
+.shop-btn{
+padding:15px 30px;
+background:#38bdf8;
+border:none;
+border-radius:10px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.tshirt{
+width:320px;
+height:380px;
+background:white;
+border-radius:20px;
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+box-shadow:0 0 30px rgba(0,0,0,.4);
+}
+
+.tshirt::before{
+content:"";
+position:absolute;
+top:-40px;
+width:120px;
+height:80px;
+background:white;
+border-radius:20px;
+}
+
+.print{
+color:#111827;
+font-size:30px;
+font-weight:bold;
+text-align:center;
+padding:20px;
+}
+
+.welcome{
+text-align:center;
+padding:30px;
+font-size:40px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+footer{
+text-align:center;
+padding:25px;
+background:#111827;
+margin-top:50px;
+}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">Surya Production</div>
+
+<div class="nav-btns">
+<button class="login">Login</button>
+<button class="signup">Sign Up</button>
+</div>
+</nav>
+
+<div class="welcome">
+Welcome to Surya Production
+</div>
+
+<section class="hero">
+
+<div class="text">
+<h1>Premium T-Shirts</h1>
+
+<p>
+Stylish and affordable T-Shirts for customers in
+Gauriganj, Amethi and nearby areas.
+Fast local delivery and premium quality designs.
+</p>
+
+<button class="shop-btn">
+Shop Now
+</button>
+</div>
+
+<div class="tshirt">
+<div class="print">
+SURYA<br>PRODUCTION
+</div>
+</div>
+
+</section>
+
+<footer>
+© 2026 Surya Production | Gauriganj, Amethi
+</footer>
+
+</body>
+</html>
